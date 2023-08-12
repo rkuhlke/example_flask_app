@@ -1,0 +1,9 @@
+from os import environ
+
+BASE_URL = '<base_url'
+ENV_SUFFIX = '<env'
+SESSION_COOKIE_SECURE = True
+REMEMBER_COOKIE_SECURE = True
+
+environ['SECRET_KEY'] = '<secret_key>'
+environ['OAUTHLIB_INSECURE_TRANSPORT'] = '0'

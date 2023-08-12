@@ -1,0 +1,9 @@
+from os import environ
+
+BASE_URL = '<dev_base_url'
+ENV_SUFFIX = '<dev_env'
+SESSION_COOKIE_SECURE = True
+REMEMBER_COOKIE_SECURE = True
+
+environ['SECRET_KEY'] = '<secret_key>'
+environ['OAUTHLIB_INSECURE_TRANSPORT'] = '0'
